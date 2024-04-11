@@ -24,11 +24,10 @@
 | Nombre de los Integrantes            | Código      |
 |--------------------------------------|-------------|
 | Eduardo Renato Ventura Chancafe      | u202212645  |
-| Alumno 2       | u1234567  |
-| Alumno 3       | u2345678  |
-| Alumno 4       | u3456789  |
-| Alumno 5       | u4567890  |
-| Alumno 6       | u5678901  |
+| Chambi Mendoza, Mariana Alexandra       | U202217389  |
+| Soto Salis, Natanael David       | U20201C607  |
+| Neyra Santa Cruz, Marcelo Sebastian     | U202217241  |
+| Mendoza Pimentel, Piero       | U201923446  |
 
 </div>
 
@@ -101,11 +100,11 @@ Lo que hace única a nuestra startup es nuestro compromiso con el desarrollo sos
 
 | Foto | Nombre y Descripción |
 | ---- | --------------------- |
-| ![Mariana Chambi](URL1) | **Chambi Mendoza, Mariana Alexandra**: Me llamo Mariana, tengo 19 años y soy estudiante de la carrera de Ingeniería de Software. Suelo destacar por mi personalidad, ya que me considero una persona empática, alegre, responsable y puntual. Además, cuento con conocimientos básicos en programación en el lenguaje C + +, Python y Html. Busco demostrar el máximo de mis capacidades en todos los proyectos en los que participo.|
-| ![Natanael Soto](URL2) | **Soto Salis, Natanael David**: Soy estudiante de Ingeniería de Software. He colaborado con trabajos que usan frameworks como React y NextJS. He realizado trabajos con HTML y CSS y con estos conocimientos colaborare con el desarrollo de este trabajo además que ayudaré al equipo en lo que se requiera. |
-| ![Marcelo Neyra](URL3) | **Neyra Santa Cruz, Marcelo Sebastian**: Mi nombre es Marcelo Neyra, tengo 19 años y estoy cursando la carrera de Ingeniería de Software en la UPC. Soy bastante perseverante, trabajador y amable. Tengo algunos conocimientos sobre programación en el lenguaje C + + y estoy practicando en algunos otros lenguajes, como Python. Mi sueño/meta es convertirme en un desarrollador de videojuegos en la empresa Nintendo. |
-| ![Eduardo Ventura](URL4) | **Ventura Chancafe, Eduardo Renato**: Dentro del startup me encargo con el desarrollo del diseño ,QA y gestión del equipo, pues tengo conocimientos adicionales a los de mi sector. Además, apoyaré en el desarrollo del código trabajando de forma cohesionada con mis compañeros. Asimismo, cuento con conocimientos en herramientas como HTML, CSS, JavaScript, Python, C++, Cypress, NodeJs, NestJs y Agile Project Managment. |
-| ![Piero Mendoza](URL5) | **Mendoza Pimentel, Piero**: Soy estudiante de Ingeniería de Software. En el transcurso de mis estudios universitarios he aprendido lenguajes como C++, Python y JavaScript. En este curso espero poder entender y aplicar lo aprendido para poder mejorar mis conocimientos. |
+| ![Mariana Chambi](https://cdn.discordapp.com/attachments/1095136950018646057/1227824454311215104/image.png?ex=6629cfa1&is=66175aa1&hm=6c524db118b4883a6468d081d94df7f44e6b4096353f77e133327cb9489af626&) | **Chambi Mendoza, Mariana Alexandra**: Me llamo Mariana, tengo 19 años y soy estudiante de la carrera de Ingeniería de Software. Suelo destacar por mi personalidad, ya que me considero una persona empática, alegre, responsable y puntual. Además, cuento con conocimientos básicos en programación en el lenguaje C + +, Python y Html. Busco demostrar el máximo de mis capacidades en todos los proyectos en los que participo.|
+| ![Natanael Soto](https://cdn.discordapp.com/attachments/1095136950018646057/1227824493792071772/image.png?ex=6629cfab&is=66175aab&hm=e0471f36ba1333cb1f480785e09db5bb81061608bf789eb767b2cba03784c9a8&) | **Soto Salis, Natanael David**: Soy estudiante de Ingeniería de Software. He colaborado con trabajos que usan frameworks como React y NextJS. He realizado trabajos con HTML y CSS y con estos conocimientos colaborare con el desarrollo de este trabajo además que ayudaré al equipo en lo que se requiera. |
+| ![Marcelo Neyra](https://cdn.discordapp.com/attachments/1095136950018646057/1227824533914910761/image.png?ex=6629cfb4&is=66175ab4&hm=f83a4fc60e4fdacd75c37c9ae2cafad97d0f9216a393e4b72b07f194d625149b&) | **Neyra Santa Cruz, Marcelo Sebastian**: Mi nombre es Marcelo Neyra, tengo 19 años y estoy cursando la carrera de Ingeniería de Software en la UPC. Soy bastante perseverante, trabajador y amable. Tengo algunos conocimientos sobre programación en el lenguaje C + + y estoy practicando en algunos otros lenguajes, como Python. Mi sueño/meta es convertirme en un desarrollador de videojuegos en la empresa Nintendo. |
+| ![Eduardo Ventura](https://cdn.discordapp.com/attachments/1095136950018646057/1227824805932171364/image.png?ex=6629cff5&is=66175af5&hm=69ab6d23809472c8b572947e8d0b5f1d111df94067edf38e2ca70c899855267a&) | **Ventura Chancafe, Eduardo Renato**: Dentro del startup me encargo con el desarrollo del diseño ,QA y gestión del equipo, pues tengo conocimientos adicionales a los de mi sector. Además, apoyaré en el desarrollo del código trabajando de forma cohesionada con mis compañeros. Asimismo, cuento con conocimientos en herramientas como HTML, CSS, JavaScript, Python, C++, Cypress, NodeJs, NestJs y Agile Project Managment. |
+| ![Piero Mendoza](https://cdn.discordapp.com/attachments/1095136950018646057/1227824756540313600/image.png?ex=6629cfe9&is=66175ae9&hm=72877d68cb63a81408e140a9fa50c43f8d9b19d7680c1cbc7de809c29cf29014&) | **Mendoza Pimentel, Piero**: Soy estudiante de Ingeniería de Software. En el transcurso de mis estudios universitarios he aprendido lenguajes como C++, Python y JavaScript. En este curso espero poder entender y aplicar lo aprendido para poder mejorar mis conocimientos. |
 
 ### 1.2. Solution Profile
 CropSphere de AgriSynth es una solución integral de software que transforma la gestión agrícola mediante la optimización del uso de insumos y maquinaria, y la mejora en la comunicación y planificación de proyectos. Permite un control eficiente de inventarios y seguimiento de adquisiciones, asegurando la máxima eficacia en el uso de recursos y reduciendo desperdicios. Además, facilita la planificación y el mantenimiento de maquinaria agrícola, mejora la comunicación entre partes interesadas y ofrece análisis detallados para la toma de decisiones estratégicas en la siembra, cultivo y cosecha. Nuestro producto de software es clave para una agricultura más productiva y sostenible.
