@@ -33,13 +33,9 @@
 
 ## Registro de Versiones del Informe
 
-| Version | Fecha| Autor | Descripción de la Modificación |
-|-----------|-----------|-----------|-----------|
-| 1.0 | 30/08/2023 | Alumno 1 | Descripción |
-| 1.0 | 30/08/2023 | Alumno 2 | Descripción |
-| 1.0 | 30/08/2023 | Alumno 3 | Descripción |
-| 1.0 | 30/08/2023 | Alumno 4 | Descripción |
-| 1.0 | 30/08/2023 | Alumno 5 | Descripción |
+|**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
+| :-: | :-: | :-: | :-: |
+|**TB1**|**09/04/2024**|<p>**Ventura Chancafe, Eduardo Renato**</p><p></p><p>**Chambi Mendoza, Mariana Alexandra**</p><p></p><p>**Soto Salis, Natanael David**</p><p></p><p>**Neyra Santa Cruz, Marcelo Sebastian**</p><p></p><p>**Mendoza Pimentel, Piero**</p><p></p>|**Capítulo I<br>Capítulo II<br>Capítulo III<br>Capítulo IV<br>Capítulo V**|
 
 ## Project Report Collaboration Insights
 
