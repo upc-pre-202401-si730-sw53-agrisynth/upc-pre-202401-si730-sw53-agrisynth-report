@@ -214,3 +214,85 @@ En la sección de configuración, el usuario podrá ver y modificar sus datos pe
 
 En la sección se mostrará la funcionalidad del prototipo en web
 Link: [Prototipo video aplicaciones web.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/ETiSuNru3_VCp4jdSts16XIB__Zeo8wTurh-FBzmHK-ykQ?e=kSLfXo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+# 4.7. Software Object-Oriented Design.
+**4.7.1. Class Diagrams.**
+
+![A](https://media.discordapp.net/attachments/1122567258317791342/1227826412770300014/class.jpeg?ex=6629d174&is=66175c74&hm=dd7a20633fc9a7a131c8fe7b05096310d89f00fb23e1f0016fcb5fa633347212&=&format=webp&width=637&height=468)
+
+**4.7.2. Class Dictionary.**
+
+A continuación, se detallan exhaustivamente las clases más relevantes junto con sus atributos y métodos correspondientes en el contexto del sistema de gestión agrícola. Estas clases forman la estructura fundamental del sistema, permitiendo un seguimiento integral de los procesos agrícolas y la gestión de los recursos agrícolas.
+
+
+|**User**||
+| :- | :- |
+|La clase User es la clase fundamental que representa a un usuario dentro de la plataforma.||
+|**Atributo**|**Descripción**|
+|string name|Almacena el nombre del usuario.|
+|string last\_name|Almacena el apellido del usuario.|
+|int age|Almacena la edad del usuario.|
+|char sex|` `Almacena el género del usuario |
+|**Método**|**Descripción**|
+|Created\_Accountt(): void|Este método registra la creación de la cuenta del usuario en la plataforma.|
+
+|**Account**||
+| :- | :- |
+|La clase Account amplía los detalles proporcionados por el usuario en la plataforma||
+|**Atributo**|**Descripción**|
+|string email|Almacena la dirección de correo electrónico asociada a la cuenta del usuario.|
+|string password|Almacena la contraseña de la cuenta del usuario.|
+|string contacct\_numbet|Almacena el número de contacto o teléfono asociado a la cuenta del usuario.|
+|bool active|Indica si la cuenta del usuario está activa o no (true para activa, false para inactiva).|
+|**Método**|**Descripción**|
+|EditAccount(): void|` `Método para editar los detalles de la cuenta del usuario|
+|OpenAccount(): void|Método para abrir la cuenta del usuario.|
+|CloseAccount(): void|Método para cerrar la cuenta del usuario.|
+|IsActive(): void|Método para verificar si la cuenta del usuario está activa o inactiva.|
+
+|**Subscription**||
+| :- | :- |
+|La clase Subscription encapsula los detalles esenciales de una suscripción||
+|**Atributo**|**Descripción**|
+|string start\_date|Representa la fecha y hora en que comenzó la suscripción|
+|string end\_date|Representa la fecha y hora en que finaliza la suscripción|
+|bool active|Indica si la suscripción está activa o no|
+|**Método**|**Descripción**|
+|set\_start\_date(): void|Método para establecer la fecha de inicio de la suscripción.|
+|set\_end\_date(): void|Método para establecer la fecha de finalización de la suscripción.|
+|get\_end\_date(): void|Método para obtener la fecha de finalización de la suscripción.|
+|IsActive(): void|Método para verificar si la suscripción está activa o inactiva.|
+
+|**CustomerOperation**||
+| :- | :- |
+|<p>Clase encargada de manejar todos los procesos de gestión agrícola.</p><p></p>||
+|**Atributo**|**Descripción**|
+|Acount account|Representa la cuenta del cliente asociada a los procesos de gestión agrícola|
+|**Método**|**Descripción**|
+|createFuntion(): void|Método para crear una nueva función o proceso de gestión agrícola para el cliente|
+
+|**Terrain**||
+| :- | :- |
+|Representa un terreno utilizado en procesos agrícolas.||
+|**Atributo**|**Descripción**|
+|string type\_Terrain|Tipo de terreno|
+|string location|` `Ubicación del terreno.|
+|string size|Tamaño del terreno.|
+|**Método**|**Descripción**|
+|methods(): void|Método para realizar operaciones específicas relacionadas con el terreno.|
+
+|**Operation**||
+| :- | :- |
+|Clase la cual se encarga de derivar la información de las clases Alquiler y Compra ||
+|**Atributo**|**Descripción**|
+|string type|Tipo de operación, puede ser "alquiler" o "compra".|
+|**Método**|**Descripción**|
+|methods(): void|Método para realizar operaciones específicas relacionadas con la operación de alquiler o compra.|
+
+
+# 4.8. Database Design.
+
+**4.8.1. Database Diagram**
+
+![A](https://media.discordapp.net/attachments/1122567258317791342/1227826413202047006/database.png?ex=6629d174&is=66175c74&hm=d7c961a9a175a099beec3ea2532b403fa258c59aba58cadcc10ac47dd5674988&=&format=webp&quality=lossless&width=705&height=338)
