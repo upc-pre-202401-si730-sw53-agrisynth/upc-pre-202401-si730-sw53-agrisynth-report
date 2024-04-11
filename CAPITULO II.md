@@ -64,3 +64,118 @@ En este punto presentaremos los resultados de las entrevistas realizadas a los u
 1. ¿Qué desafíos enfrenta al integrar nuevas tecnologías en sus operaciones a gran escala?
 1. ¿De qué manera íntegra prácticas de sostenibilidad en sus operaciones y qué impacto han tenido?
 1. ¿Cómo mide y comunica los resultados de sus esfuerzos de sostenibilidad a stakeholders internos y externos?
+
+# 2.3. Needfinding
+Con el propósito de desarrollar una app que satisfaga las necesidades particulares de los usuarios, AgriSynth Group llevará a cabo la identificación del User persona, User Task Matrix, User Journey Maps y Empathy Mapping.
+
+**2.3.1. User Personas**
+
+Para esta sección se han creado personajes ficticios, cada uno diseñado para representar a un segmento específico de usuarios. La información utilizada para desarrollar estos "User personas" proviene de entrevistas previas realizadas a cada segmento objetivo. Estas entrevistas tenían como objetivo comprender mejor a las personas a las que se dirige la aplicación. Se consideraron datos demográficos, metas, motivaciones, frustraciones, marcas relacionadas con el tema de la aplicación, canales digitales más utilizados, entre otros. La creación de esta sección se llevó a cabo utilizando la plataforma UXPressia.
+
+*Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores*
+
+![A](https://media.discordapp.net/attachments/1122567258317791342/1227826461667229696/UserPersona1v.png?ex=6629d180&is=66175c80&hm=8cd7906ad26f5a57163a3860aef2002e585bb1922eba85343429b827c8a4d72c&=&format=webp&quality=lossless&width=371&height=468)
+
+*Segmento objetivo: Empresas Agrícolas de Gran Escala*
+
+![A](https://media.discordapp.net/attachments/1122567258317791342/1227826462078537768/UserPersona2.png?ex=6629d180&is=66175c80&hm=aec6a01c53cfe4daed1ed4e9bade5f26484c69617c28895b1549de1ea9e27335&=&format=webp&quality=lossless&width=315&height=468)
+
+**2.3.2. User Task Matrix**
+
+En esta sección se presenta el user task matrix, herramienta centrada en los segmentos objetivos, que nos permitirá identificar las tareas y objetivos claves de los usuarios. Además, nos permitirá priorizar características y funcionalidades al momento de realizar el product backlog. Para la frecuencia se han considerado cinco opciones:nunca ,casi nunca, a veces, a menudo ,siempre; y para la importancia tres opciones: bajo, medio, alto".
+En relación con la matriz de tareas de los usuarios, podemos identificar tanto las tareas de mayor frecuencia como las de mayor importancia, así como las diferencias y similitudes entre los diferentes tipos de usuarios.
+
+
+<table><tr><th rowspan="2" valign="top"><b><i>User task Matrix</i></b></th><th colspan="2" valign="top"><b><i>Carlos Bustamante</i></b></th><th colspan="2" valign="top"><p><b><i>Juan Bernal</i></b> </p><p><b><i></i></b></p></th></tr>
+<tr><td valign="top"><b><i>Frecuencia</i></b> </td><td valign="top"><b><i>Importancia</i></b></td><td valign="top"><b><i>Frecuencia</i></b> </td><td valign="top"><b><i>Importancia</i></b></td></tr>
+<tr><td>Recopilar datos de cultivo</td><td><b><i>A menudo</i></b></td><td><b><i>Alta</i></b></td><td><b><i>Nunca</i></b></td><td><b><i>Medio</i></b></td></tr>
+<tr><td>Analizar datos de cultivo</td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td><td><b><i>Nunca</i></b></td><td><b><i>Baja</i></b></td></tr>
+<tr><td>Compartir información con agricultores/ingenieros agrónomos/gerentes general de la empresa</td><td><b><i>Siempre</i></b></td><td><b><i>Medio</i></b></td><td><b><i>Nunca</i></b></td><td><b><i>Medio</i></b></td></tr>
+<tr><td>Accesibilidad y permisos de trabajo</td><td><b><i>Siempre</i></b></td><td><b><i>Medio</i></b></td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td></tr>
+<tr><td>Optimización de operaciones</td><td><b><i>Siempre</i></b></td><td><b><i>Mdia</i></b></td><td><b><i>Nunca</i></b></td><td><b><i>Alta</i></b></td></tr>
+<tr><td>Gestión de insumos y maquinaria	</td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td><td><b><i>A veces</i></b></td><td><b><i>Alta</i></b></td></tr>
+<tr><td>Alquiler y Compra de maquinaria</td><td><b><i>Siempre</i></b></td><td><b><i>Medio</i></b></td><td><b><i>A veces</i></b></td><td><b><i>Medio</i></b></td></tr>
+<tr><td>Mejora en la toma de decisiones</td><td><b><i>Siempre</i></b></td><td><b><i>Baja</i></b></td><td><b><i>Casi nunca</i></b></td><td><b><i>Baja</i></b></td></tr>
+<tr><td>Creación de grupos</td><td><b><i>A veces</i></b></td><td><b><i>Alta</i></b></td><td><b><i>Siempre</i></b></td><td><b><i>Baja</i></b></td></tr>
+<tr><td>Detalles de datos estadísticos</td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td></tr>
+</table>
+
+**Para los Ingenieros Agrónomos que Asesoran a Agricultores, las tareas más frecuentes e importantes incluyen:**
+
+- Analizar datos de cultivo: Esta tarea es esencial para proporcionar recomendaciones precisas a los agricultores y mejorar los rendimientos agrícolas.
+- Gestión de insumos y maquinaria: La eficiente gestión de recursos es crucial para optimizar la producción agrícola y garantizar prácticas sostenibles.
+- Detalles de datos estadísticos: La capacidad de acceder y comprender datos estadísticos específicos ayuda a los ingenieros agrónomos a tomar decisiones fundamentadas y mejorar sus servicios de asesoramiento.
+
+**Por otro lado, para las Empresas Agrícolas de Gran Escala, dirigidas por gerentes generales, las tareas más frecuentes e importantes son:**
+
+- Accesibilidad y permisos de trabajo: La garantía de que los empleados tengan acceso adecuado a la plataforma y los datos, con permisos bien definidos, es fundamental para mantener la seguridad y la eficiencia operativa.
+
+- Detalles de datos estadísticos: Al igual que los ingenieros agrónomos, los gerentes generales valoran la capacidad de acceder a datos estadísticos detallados para respaldar la toma de decisiones estratégicas en la gestión de la empresa.
+
+Es importante destacar que ambas categorías de usuarios comparten la necesidad de acceder a detalles específicos de datos estadísticos. Sin embargo, la gestión de insumos y maquinaria es una tarea más relevante para los ingenieros agrónomos, mientras que la accesibilidad y los permisos de trabajo son más críticos para los gerentes generales de las empresas agrícolas de gran escala. Estas diferencias reflejan las distintas responsabilidades y prioridades de cada grupo de usuarios dentro del contexto de la solución ofrecida.
+
+**2.3.3. User Journey Mapping**
+
+
+En esta sección, explicaremos en detalle los user journey mapping para dos tipos de usuarios distintos: los Ingenieros Agrónomos que Asesoran a Agricultores y las Empresas Agrícolas de Gran Escala. Estos mapas proporcionarán una visión exhaustiva de cómo cada segmento de usuario interactúa con la plataforma, desde su primer contacto hasta su uso continuo y el análisis de resultados. Mejoraremos la presentación de estos mapas, destacando las etapas clave y las necesidades específicas de cada usuario para garantizar una comprensión clara y concisa de su experiencia a lo largo de su viaje:
+
+- Para los Ingenieros Agrónomos que Asesoran a Agricultores, el viaje comienza con el registro en la plataforma, seguido de la recopilación de datos de cultivo crucial para ofrecer asesoramiento informado a los agricultores. A través del análisis de datos y la comunicación efectiva, estos profesionales supervisan el progreso de las explotaciones agrícolas, adaptando sus estrategias según sea necesario para optimizar los resultados obtenidos.
+
+- Para las Empresas Agrícolas de Gran Escala se embarcan en un viaje que abarca desde la identificación de necesidades hasta la implementación y el monitoreo continuo de una plataforma tecnológica. Desde el registro inicial hasta el seguimiento y evaluación de resultados, estas empresas utilizan herramientas avanzadas para mejorar la toma de decisiones, optimizar las operaciones y maximizar la rentabilidad en un entorno agrícola en constante cambio.
+
+A lo largo de este recorrido, tanto los Ingenieros Agrónomos como las Empresas Agrícolas se enfrentan a desafíos y oportunidades únicas, pero comparten un objetivo común: utilizar la tecnología para mejorar la eficiencia, la productividad y la sostenibilidad en el sector agrícola.
+
+*Segmento: Ingenieros Agrónomos que Asesoran a Agricultores*
+
+![A](https://media.discordapp.net/attachments/1122567258317791342/1227826413592383518/Journeymappingsegmento1.png?ex=6629d174&is=66175c74&hm=58a3e2d6d5451cc88ac1c9ad1efa683210dc9f84223c7b9abe3235f3c4eec286&=&format=webp&quality=lossless&width=603&height=468)
+
+[**https://uxpressia.com/w/DeRZM/m/5td8l](https://uxpressia.com/w/DeRZM/m/5td8l)** 
+
+*Segmento: Empresas Agrícolas de Gran Escala*
+
+![A](https://media.discordapp.net/attachments/1122567258317791342/1227826414003159101/Journeymappingsegmento2.png?ex=6629d175&is=66175c75&hm=9726bca77c4b3e16c165d053d282c6a797dd3eea77991371fbc1961a421eb348&=&format=webp&quality=lossless&width=550&height=468)
+
+
+[**https://uxpressia.com/w/DeRZM/m/vNTpp](https://uxpressia.com/w/DeRZM/m/vNTpp)** 
+
+
+**2.3.4. Empathy Mapping**
+
+En esta sección se aborda el Empathy Mapping, una herramienta esencial para elaborar perfiles detallados de los user personas y profundizar en la comprensión de su perspectiva y experiencia. Cada user persona se analiza a través de cinco elementos cruciales: lo que el usuario ve, escucha,dice, hace y siente. Además, se identifican los problemas (pains) y beneficios (gains) de acuerdo con una serie de preguntas estratégicas:¿Qué preocupaciones o desafíos enfrenta el usuario en su trabajo diario?¿Qué mejoras o soluciones podrían resolver los problemas identificados?¿Qué argumentos podrían persuadir al usuario de que nuestra solución es la mejor opción para satisfacer sus necesidades profesionales?
+
+*Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores*
+
+![A](https://media.discordapp.net/attachments/1122567258317791342/1227826510224691250/UserPersonaEmpathy.png?ex=6629d18b&is=66175c8b&hm=9b290e12f15d97caaaf1bf5c917946c4f41faf2f237224923e6bd055b09796d7&=&format=webp&quality=lossless&width=398&height=467)
+
+[**https://uxpressia.com/w/DeRZM/p/oj8l0](https://uxpressia.com/w/DeRZM/p/oj8l0)** 
+
+
+*Segmento objetivo: Empresas Agrícolas de Gran Escala*
+
+![A](https://media.discordapp.net/attachments/1122567258317791342/1227826462887772230/UserPersona2Empathy.png?ex=6629d180&is=66175c80&hm=00c09b80a219a919751b29373e0bfda9788cc076a926f5b32267aefe7f8dfd12&=&format=webp&quality=lossless&width=419&height=468)
+
+[**https://uxpressia.com/w/DeRZM/p/C8egI](https://uxpressia.com/w/DeRZM/p/C8egI)** 
+
+**2.3.5. As-is Scenario Mapping**
+En esta sección, se expondrá el As-is Scenario Mapping para cada uno de los segmentos objetivo, con el propósito de identificar y comprender los puntos de interacción entre los usuarios y el software de gestión agrícola. Este proceso implica la preparación, la generación de ideas de manera individual, la revisión y la identificación de las fases relevantes como columnas en la herramienta designada. Además, se nombrarán estas fases y se etiquetarán las áreas tanto positivas como negativas para los usuarios, identificando también las áreas de conocimiento aún por explorar.
+
+*As-is Scenario mapping: Ingenieros Agrónomos que Asesoran a Agricultores*
+
+![A](https://media.discordapp.net/attachments/1122567258317791342/1227826412027908147/asis1.jpg?ex=6629d174&is=66175c74&hm=8cf0253ee05e9f94cf9eabfeefc456c8c31a97001e0cf47ec7fabe0c60c7711b&=&format=webp&width=705&height=280)
+
+*As-is Scenario mapping: Empresas Agrícolas de Gran Escala* 
+
+![A](https://media.discordapp.net/attachments/1122567258317791342/1227826412484956170/asis2.jpg?ex=6629d174&is=66175c74&hm=19ffaa73dea4e5f825f160244e8865f0e0c3c3d495260e0d7d606d1b7e7bc20f&=&format=webp&width=705&height=276)
+
+<https://miro.com/welcomeonboard/dDdyWmRYWjB0MHM0dk1GbFQxU3RVdHY2aUpyV2xFSzlzWUtHcGtuOE02bWFSNVRJRXU5aTFsZnVmekdQRWd1dHwzNDU4NzY0NTUxNzYxNjYxMjg2fDI=?share_link_id=176300122658> 
+
+# 2.4. Ubiquos Language
+
+En esta sección, nos enfocaremos en definir los términos que serán utilizados a lo largo del proyecto. El propósito es asegurar que todos los miembros del equipo y las partes interesadas comprendan de manera uniforme estos términos.
+
+- Resources (Recursos): Los productos o elementos fundamentales para los cultivos, que pueden incluir frutos, semillas y otros insumos necesarios para la producción agrícola.
+- Machinery (Maquinaria): Hace referencia a los equipos y herramientas utilizados en las diversas tareas agrícolas, tales como tractores, cosechadoras, sistemas de riego, pulverizadores y otros dispositivos mecánicos
+- Land (Terrenos): Se refiere a las áreas de terreno utilizadas para actividades agrícolas, como campos de cultivo, pastizales, huertos y viñedos.
+- Agricultural Work Crews (Grupos de trabajos Agricola):  Designa a los equipos de trabajadores agrícolas encargados de realizar diversas labores en el campo, como la siembra, el cultivo, la cosecha y el mantenimiento de los cultivos.
+- Resource Management (Gestión de Recursos): La sección donde se almacena información sobre los cultivos y semillas cultivados en la empresa agrícola. Permite a los usuarios editar, agregar o eliminar cultivos y semillas para una gestión eficiente.
+- Documents (Documentos): Se refiere a los registros y archivos utilizados en la gestión agrícola, como registros de campo, planos de siembra, informes de rendimiento y documentos legales  como los contratos de compra y alquiler.
