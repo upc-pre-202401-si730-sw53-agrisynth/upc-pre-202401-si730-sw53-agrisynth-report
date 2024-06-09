@@ -797,7 +797,7 @@ El entrevistado consideró que el diseño de la landing page es limpio, bien cui
 
 **Entrevista 2:**
 
-![](Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.017.png)
+![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.017.png)
 
 **Nombre  Completo del entrevistado: Joel Aquino Pizarro**
 
