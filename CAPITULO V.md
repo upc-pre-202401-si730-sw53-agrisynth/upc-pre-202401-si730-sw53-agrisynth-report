@@ -661,7 +661,7 @@ Link del Trello:
 
 Vista del Sprint Backlog 4 en Trello
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.001.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.001.png)
 
 |**Sprint #**|**Sprint 4**||||||
 | :- | :- | :- | :- | :- | :- | :- |
@@ -711,13 +711,13 @@ En esta sección incluiremos el registro de los últimos commits realizados en l
 En el alcance del sprint 4, se han incorporado pruebas de aceptación escritas en Gherkin, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se puede encontrar una descripción detallada de los escenarios de prueba y su implementación:
 Link del repositorio en GitHub de los Acceptance-tests: <https://github.com/upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests> 
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.002.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.002.png)
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.003.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.003.png)
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.004.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.004.png)
 **Pruebas Unitarias:**
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.005.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.005.png)
 
 |**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Committed on (Date)**|
 | :- | :- | :- | :- | :- | :- |
@@ -733,23 +733,23 @@ Link del repositorio en GitHub de los Acceptance-tests: <https://github.com/upc-
 
 En este sprint logramos como cuarta fase de nuestro producto final, terminar de desarrollar todos los endpoints que nuestro frontend utilizará además de implementar la autorización IAM. 
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.006.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.006.png)
 
 Por predeterminado, si es que intentamos acceder a alguna de las operaciones, el sistema nos lo impedirá por no tener un token registrado:
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.007.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.007.png)
 
 Podemos ingresar obtener el token ingresando con un usuario registrado:
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.008.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.008.png)
 
 Al ingresar el token:
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.009.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.009.png)
 
 Ya nos deja hacer las operaciones:
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.010.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.010.png)
 
 
 1. **Services Documentation Evidence for Sprint Review.**
@@ -763,65 +763,65 @@ Repositorio del backend en github:
 |**Bounded Context**|IAM||
 | :- | :- | :- |
 |**Entity**|**Endpoint URL**|**Swagger**|
-||/api/v1/authentication|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.011.png)|
+||/api/v1/authentication|![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.011.png)|
 
 
 
 |**Bounded Context**|Documents||
 | :- | :- | :- |
 |**Entity**|**Endpoint URL**|**Swagger**|
-||/api/v1/documents|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.012.png)|
+||/api/v1/documents|![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.012.png)|
 
 |**Bounded Context**|Machinerys||
 | :- | :- | :- |
 |**Entity**|**Endpoint URL**|**Swagger**|
-||/api/v1/machinerys|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.013.png)|
+||/api/v1/machinerys|![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.013.png)|
 
 |**Bounded Context**|Profiles||
 | :- | :- | :- |
 |**Entity**|**Endpoint URL**|**Swagger**|
-||/api/v1/profiles|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.014.png)|
+||/api/v1/profiles|![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.014.png)|
 
 |**Bounded Context**|ResourceItems||
 | :- | :- | :- |
 |**Entity**|**Endpoint URL**|**Swagger**|
-||/api/v1/resource-items|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.015.png)|
+||/api/v1/resource-items|![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.015.png)|
 
 |**Bounded Context**|Collaboration||
 | :- | :- | :- |
 |**Entity**|**Endpoint URL**|**Swagger**|
-||/api/v1/teams|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.016.png)|
+||/api/v1/teams|![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.016.png)|
 
 |**Bounded Context**|Collaboration||
 | :- | :- | :- |
 |**Entity**|**Endpoint URL**|**Swagger**|
-||/api/v1/team-workers|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.017.png)|
+||/api/v1/team-workers|![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.017.png)|
 
 |**Bounded Context**|Terrains||
 | :- | :- | :- |
 |**Entity**|**Endpoint URL**|**Swagger**|
-||/api/v1/terrains|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.018.png)|
+||/api/v1/terrains|![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.018.png)|
 
 
 |**Bounded Context**|Users||
 | :- | :- | :- |
 |**Entity**|**Endpoint URL**|**Swagger**|
-||/api/v1/users|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.019.png)|
+||/api/v1/users|![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.019.png)|
 
 
 1. **Software Deployment Evidence for Sprint Review.**
 
 Primero ingresamos a railway.com y nos logueamos para después poder llegar a esta sección en la que haremos click en start a new project.
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.020.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.020.png)
 
 Después en la siguiente pantalla presionaremos en la opción “Deploy MySQL”.
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.021.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.021.png)
 
 En la siguiente sección nos saldrán una serie de opciones de configuración para nuestro archivo appsettings.json que tendremos que actualizar.
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.022.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.022.png)
 
 Tras haber hecho eso solo presionaremos en “Run Code” en Intellij Idea  y se desplegará la base de datos y la lógica de backend en 2 servicios que estarán interconectados.
 
@@ -845,7 +845,7 @@ En cuanto a las últimas modificaciones en la landing page, se añadieron las se
 
 **Github analytics de nuestro cuarta sprint:** 
 
-![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.023.png)
+![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.023.png)
 
 
 1. **Validation Interviews.** 
