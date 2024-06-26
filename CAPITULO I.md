@@ -33,9 +33,15 @@
 
 ## Registro de Versiones del Informe
 
+
 |**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
 | :-: | :-: | :-: | :-: |
 |**TB1**|**09/04/2024**|<p>**Ventura Chancafe, Eduardo Renato**</p><p></p><p>**Chambi Mendoza, Mariana Alexandra**</p><p></p><p>**Soto Salis, Natanael David**</p><p></p><p>**Neyra Santa Cruz, Marcelo Sebastian**</p><p></p><p>**Mendoza Pimentel, Piero**</p><p></p>|**Capítulo I<br>Capítulo II<br>Capítulo III<br>Capítulo IV<br>Capítulo V**|
+|**TP1**|**4/4/2024**|<p>**Ventura Chancafe, Eduardo Renato**</p><p></p><p>**Chambi Mendoza, Mariana Alexandra**</p><p></p><p>**Soto Salis, Natanael David**</p><p></p><p>**Neyra Santa Cruz, Marcelo Sebastian**</p><p></p><p>**Mendoza Pimentel, Piero**</p>|**Desarrollo del Sprint 2<br>Desarrollo del frontend.**|
+|**TB2**|<p></p><p>**6/6/2024**</p><p></p><p></p>|<p>**Ventura Chancafe, Eduardo Renato**</p><p></p><p>**Chambi Mendoza, Mariana Alexandra**</p><p></p><p>**Soto Salis, Natanael David**</p><p></p><p>**Neyra Santa Cruz, Marcelo Sebastian**</p><p></p><p>**Mendoza Pimentel, Piero**</p>|**Desarrollo del Sprint 3<br>Desarrollo del frontend y backend**|
+|**TF1**|**24/06/2024**|<p>**Ventura Chancafe, Eduardo Renato**</p><p></p><p>**Chambi Mendoza, Mariana Alexandra**</p><p></p><p>**Soto Salis, Natanael David**</p><p></p><p>**Neyra Santa Cruz, Marcelo Sebastian**</p><p></p><p>**Mendoza Pimentel, Piero**</p><p></p><p></p>|<p>**Desarrollo del Sprint 4**</p><p>**Desarrollo del frontend y backend<br>Deploys actualizados tanto de App y API<br>Conclusiones**</p><p></p>|
+
+
 
 ## Project Report Collaboration Insights
 
