@@ -629,6 +629,224 @@ Durante este sprint, al igual que para el desarrollo de la landing page, fronten
 ![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.013.png)
 
 ![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.014.png)
+1. **Sprint 4**
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 4, enfocado en la implementación completa de la aplicación web, la API RESTful, los Web Services y la landing page. Además, se finalizó el desarrollo de todo el backend de los Web Services. Se detalla el progreso tangible y funcional de cada componente, incluyendo su diseño, desarrollo y funcionalidades implementadas. También se documenta la colaboración del equipo, los métodos de comunicación utilizados y las herramientas empleadas para garantizar una cooperación efectiva. Incluye secciones sobre la planificación del sprint, el backlog de tareas, evidencia del desarrollo y ejecución, documentación de servicios utilizados y reflexiones sobre la colaboración del equipo, proporcionando una visión completa del progreso alcanzado.
+
+
+1. **Sprint Planning 4.**
+
+En este sprint planning 4 se presenta la evidencia de la planificación para la implementación de la Application Web, RESTful API  y landing page. Además, se evidenciaron los avances del proyecto e insights de colaboración en el equipo a través de GitHub.
+
+|Sprint#|Sprint 4|
+| :- | :- |
+|Sprint Planning Background||
+|Date|Martes 25 de junio del 2024|
+|Time|17:00|
+|Location|Remoto vía Discord|
+|Prepared By|AgriSynth Group|
+|Attendees|Todo el equipo|
+|<p>Sprint n - 3</p><p>Review Summary</p>|Se planea terminar de desarrollar todo el frontend de la aplicación, mejorar algunos features mediante el uso de params y queries, empezar con el proceso de construcción  de la aplicación de la API hecha con C# .NetCore y finalmente implementar un CRUD.|
+|<p>Sprint n - 4 </p><p>Retrospective Summary</p>|Se planea acabar con todas las operaciones definidas en los technical stories además de implementar el bounded context de autenticación(IAM). Finalmente conectar el API con el frontend.|
+|Sprint 4 Velocity|8|
+|Sum of Story Points|8|
+
+1. **Sprint Backlog 4.**
+
+En esta parte mostramos las tareas que se realizaron en este sprint.
+
+Link del Trello:
+
+<https://trello.com/invite/b/2qhQ3v57/ATTI2ec4b2ab56c2a23dbc12fa13ca2e554dDE9C5C1F/sprint-backlog-4> 
+
+Vista del Sprint Backlog 4 en Trello
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.001.png)
+
+|**Sprint #**|**Sprint 4**||||||
+| :- | :- | :- | :- | :- | :- | :- |
+|**User Story**|**Work-item / Task**||||||
+|ID|Title|Id|Descripción|Estimación (horas)|Asignado a:|Status (pendiente/en proceso/en revisión/hecho)|
+|<p>EP04   /</p><p>US04</p>|Edicion de un Documento|T8|Conectar el endpoint correspondiente para editar documentos e implementar los métodos GET,POST,PUT y DELETE.|3H|Mariana|Hecho|
+|EP06 / US02|Agregar personas al grupo|T5|Conectar el endpoint para agregar personas a un grupo e implementar el método POST, validando la existencia de la persona y el grupo, y gestionando permisos y roles.|4H|Eduardo|Hecho|
+|EP08 / US03|Cambio de contraseña|T7|Implementar funcionalidad en la sección de settings|2H|Marcelo|Hecho|
+|EP4 / US02|Visualizar detalles de Terrenos|T2|Conectar el endpoint correspondiente e implementar el método GET para obtener detalles de terrenos, gestionando permisos para acceso autorizado.|4H|Piero|Hecho|
+|EP3 / US03|Edición de un recurso|T3|Conectar el endpoint correspondiente para editar recursos e implementar los métodos GET y PUT.|4H|Natanael|Hecho|
+|EP3 / US02|Borrado de recurso|T4|Conectar el endpoint correspondiente e implementar el método DELETE.|4H|Natanael|Hecho|
+|EP1 / US02|Acceso de usuarios|T1|Conectar el endpoint correspondiente e implementar el método POST para login de usuarios, validando credenciales y gestionando tokens de sesión.|8H|Marcelo|Hecho|
+|EP06 / US01|Creación de grupo de Trabajo|T9|Conectar el endpoint correspondiente e implementar el método POST para crear grupos de trabajo.|4H|Eduardo|Hecho|
+|<p>EP04 /   </p><p>US05</p>|Eliminar O Descargar un Documento|T10|Conectar el endpoint correspondiente e implementar los métodos DELETE y GET (para descargar documentos), con validaciones y manejo de permisos|5H|Mariana|Hecho|
+
+1. **Development Evidence for Sprint Review.**
+
+En esta sección incluiremos el registro de los últimos commits realizados en las ramas main y develop respectivamente de los repositorios de nuestra landing page, web application y API en Github.
+
+**Nuestros repositorios:**
+
+- **Landing page: <https://github.com/upc-pre-202401-si730-sw53-agrisynth/agrisynth-landing-page>** 
+- **Web application: <https://github.com/upc-pre-202401-si730-sw53-agrisynth/agrisynth-frontend>** 
+- **RESTful API: <https://github.com/upc-pre-202401-si730-sw53-agrisynth/agrisynth-backend>** 
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Committed on (Date)**|
+| :- | :- | :- | :- | :- | :- |
+|agrisynth-frontend|develop|959a92b58d64f409fd2f3e64ceece52781145b9e|feat(iam): added iam component|none|22/06/24|
+|agrisynth-frontend|develop|257ff8db8cd1f360e79f4b0e9e3fd27c47271e88|fix: changed connection with backend|none|23/06/24|
+|agrisynth-frontend|develop|c990a758f8cfa48073c434fd80e0138436d8c13d|fix(iam): fixed issues that prevented connection|none|25/06/24|
+|agrisynth-frontend|develop|dcddf88fed1183a6f44c7002df2466cd6c0ecc3a|fix(): fix update service from Team Worker and TeamWorker|none|25/06/24|
+|agrisynth-frontend|develop|e2e793abaeb6bf80ad3b519f4e4dcdea14e7b29a|style(IAM): changed sign in and sign up styles|none|25/06/24|
+|agrisynth-frontend|develop|108a75747c914f3199ccf27036324ab691480038|Merge branch 'feature/iam' of https://github.com/upc-pre-202401-si730-sw53-agrisynth/agrisynth-frontend into feature/iam|none|25/06/24|
+|agrisynth-frontend|develop|c809b5e2fd70220b7c9d909fd8c051f74a2f0e61|<p>Merge pull request #19 from upc-pre-202401-si730-sw53-agrisynth/feature/iam</p><p></p>|none|25/06/24|
+|agrisynth-backend|develop|6ec1402ef3a616d0a5a48cf88da6ee3cf0887da3|<p>feat(IAM): Added IAM files</p><p></p>|none|22/06/24|
+|agrisynth-backend|develop|05c9307a7ba133cd35556baeb3e509260f76c4cb|feat(IAM): Implemented IAM feature|none|22/06/24|
+|agrisynth-backend|develop|b3a29d5964e68ed2031234163430ee09a3cc0b05|fix(IAM): fixed dependency issue|none|22/06/24|
+|agrisynth-backend|develop|bb67f67bec428651587179b0e2008c1ee15507a8|Merge pull request #11 from upc-pre-202401-si730-sw53-agrisynth/feature/IAM|Feature/iam|22/06/24|
+|agrisynth-backend|develop|d318041ff4ea739d4eab2b305a755898ad4cc88b|fix: fixed connection problem|none|23/06/224|
+|agrisynth-backend|develop|7ae40d57577fcc62a7bb795f9f0b4377e7f13977|fix(IAM): fixed connection issue|none|23/06/224|
+|agrisynth-backend|develop|61d63079c3250245340863cb3476ca5d8a356d28|Merge pull request #12 from upc-pre-202401-si730-sw53-agrisynth/feature/IAM|Feature/iam|25/06/24|
+|agrisynth-backend|develop|30ba840c43cdc47e9c9c880f812dffec6bc73966|Merge pull request #13 from upc-pre-202401-si730-sw53-agrisynth/develop|Develop|25/06/24|
+|agrisynth-backend|develop|4c933ff026b9bd99fb7ad779c47f50913aa1b3e6|feat: add the method update-document|Develop|25/06/24|
+
+1. **Testing Suite Evidence for Sprint Review.**
+
+En el alcance del sprint 4, se han incorporado pruebas de aceptación escritas en Gherkin, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se puede encontrar una descripción detallada de los escenarios de prueba y su implementación:
+Link del repositorio en GitHub de los Acceptance-tests: <https://github.com/upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests> 
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.002.png)
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.003.png)
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.004.png)
+**Pruebas Unitarias:**
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.005.png)
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Committed on (Date)**|
+| :- | :- | :- | :- | :- | :- |
+|**upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests**|**main**|**486c2aa058a162c6c58d04aa1c09a4a53ebdbc28**|**feat: add Gherkin criteria for EP06/US05 on member permission settings**|**-**|22/06/24|
+|**upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests**|**main**|**75e3376c00a4fa9f52f688599932a10f44effdef**|<p>**feat: add Gherkin criteria for EP06/US04 on managing group member removal**</p><p></p><p></p>|**-**|22/06/24|
+|**upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests**|**main**|**716dcb1b6d210c5bff7c523bd5fc40ad08c3d12a**|**feat: add us04 and us05**|**-**|25/06/24|
+|**upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests**|**main**|**4a2b6c52d4f4ecaf405cec28b6f2914a6bc13ce2**|**fix: sintaxis del scenario 2 del US07**|**-**|25/06/24|
+|**upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests**|**main**|**3ebe50e92ff4dda2c184d3c539af5a582af6d2cd**|**Added TS02 and TS03**|**-**|25/06/24|
+**
+
+
+1. **Execution Evidence for Sprint Review.**
+
+En este sprint logramos como cuarta fase de nuestro producto final, terminar de desarrollar todos los endpoints que nuestro frontend utilizará además de implementar la autorización IAM. 
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.006.png)
+
+Por predeterminado, si es que intentamos acceder a alguna de las operaciones, el sistema nos lo impedirá por no tener un token registrado:
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.007.png)
+
+Podemos ingresar obtener el token ingresando con un usuario registrado:
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.008.png)
+
+Al ingresar el token:
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.009.png)
+
+Ya nos deja hacer las operaciones:
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.010.png)
+
+
+1. **Services Documentation Evidence for Sprint Review.**
+
+Para este sprint utilizamos los servicios de la API que nosotros mismos hicimos utilizando el lenguaje C# y Microsoft .NET Framework. A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentado en Swagger.
+
+Repositorio del backend en github: 
+
+<https://github.com/upc-pre-202401-si730-sw53-agrisynth/agrisynth-backend> 
+
+|**Bounded Context**|IAM||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+||/api/v1/authentication|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.011.png)|
+
+
+
+|**Bounded Context**|Documents||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+||/api/v1/documents|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.012.png)|
+
+|**Bounded Context**|Machinerys||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+||/api/v1/machinerys|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.013.png)|
+
+|**Bounded Context**|Profiles||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+||/api/v1/profiles|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.014.png)|
+
+|**Bounded Context**|ResourceItems||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+||/api/v1/resource-items|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.015.png)|
+
+|**Bounded Context**|Collaboration||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+||/api/v1/teams|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.016.png)|
+
+|**Bounded Context**|Collaboration||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+||/api/v1/team-workers|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.017.png)|
+
+|**Bounded Context**|Terrains||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+||/api/v1/terrains|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.018.png)|
+
+
+|**Bounded Context**|Users||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+||/api/v1/users|![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.019.png)|
+
+
+1. **Software Deployment Evidence for Sprint Review.**
+
+Primero ingresamos a railway.com y nos logueamos para después poder llegar a esta sección en la que haremos click en start a new project.
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.020.png)
+
+Después en la siguiente pantalla presionaremos en la opción “Deploy MySQL”.
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.021.png)
+
+En la siguiente sección nos saldrán una serie de opciones de configuración para nuestro archivo appsettings.json que tendremos que actualizar.
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.022.png)
+
+Tras haber hecho eso solo presionaremos en “Run Code” en Intellij Idea  y se desplegará la base de datos y la lógica de backend en 2 servicios que estarán interconectados.
+
+Por tanto nuestros productos finales desplegados son:
+`	`**Landing page: <https://upc-pre-202401-si730-sw53-agrisynth.github.io/agrisynth-landing-page/>** 
+
+**Web application:** 
+
+[**https://cropsphere.netlify.app/](https://cropsphere.netlify.app/)** 
+
+**RESTful API:** 
+
+[**https://agrisynthservice-production.up.railway.app/swagger/index.html](https://agrisynthservice-production.up.railway.app/swagger/index.html)** 
+
+1. **Team Collaboration Insights for Sprint Review**
+
+Durante este sprint, implementamos un enfoque estructurado para proteger la rama "main" y facilitar la colaboración eficiente del equipo. Creamos una rama "develop" de la que cada integrante del grupo derivó su propia sub-rama "feature" para subir capítulos del reporte, siguiendo las convenciones establecidas (conventional commit y git flow).
+
+En cuanto a las últimas modificaciones en la landing page, se añadieron las secciones "About the Product" y "About the Team". En el frontend, se realizaron varias mejoras y correcciones en las vistas. Para el backend, se añadieron endpoints cruciales, incluyendo los de autenticación, recursos, etc. Estos esfuerzos conjuntos reflejan el trabajo colaborativo del equipo y el compromiso con la calidad del proyecto, como se demuestra en los insights obtenidos.
+
+
+**Github analytics de nuestro cuarta sprint:** 
+
+![](Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.023.png)
+
 
 1. **Validation Interviews.** 
    1. **Diseño de Entrevistas.**
